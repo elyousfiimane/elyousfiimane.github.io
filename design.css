@@ -16,8 +16,6 @@ body{
 }
 .head{
   background-image: url('images/7685299header.jpg');
-  height: 600px;
-
 }
 .head nav a{
   text-decoration: none;
@@ -29,7 +27,6 @@ body{
 section{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  width: 50%;
   float: left;
   margin-left: 40px;
   margin-top: 30px;
@@ -51,12 +48,7 @@ section button{
   color: rgb(0, 0, 75);
   margin-top: 50px;
 }
-aside{
-  display: inline;
-  float: right;
-  margin-right: 40px;
-  margin-top: 30px;
-}
+
 .center{
   text-align: center;
   padding: 70px;
@@ -86,13 +78,6 @@ aside{
   margin-left: 10px;
 }
 
-.subdiv{
-  width: 50%;
-  float: left;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 25px;
-}
 .lefsubdiv{
   float: left;
   border: 2px solid black;
@@ -285,4 +270,25 @@ footer{
   color: rgb(0, 0, 75);
   padding: 12px 20px 12px 20px;
   font-weight: bold;
+}
+
+.heading{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.covid{
+  position: relative;
+  float: left;
+  margin-bottom: 50px;
+
+}
+.docs{
+  position: relative;
+  float: left;
+}
+
+.corona{
+  display: grid;
+  grid-template-columns: auto auto;
 }
